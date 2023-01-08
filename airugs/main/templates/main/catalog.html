@@ -1,0 +1,31 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}Airugs® - CATALOG{% endblock %}
+
+{% block headerContent %}
+<div class = "sample_text">
+    <h1><b> КОВРЫ <br>
+        НА ЛЮБОЙ <br>
+        ВКУС И ЦВЕТ</b>
+    </h1>
+    <img src="{% static 'main/img/kuromiRug.png' %}" alt="">
+</div>
+
+<div class="order_text">
+    <a href="/order-custom"><b>Заказать кастом</b></a>
+</div>
+
+<div class="empty">
+    <img src="{% static 'main/img/black.png' %}" alt="">
+    <img src="{% static 'main/img/black.png' %}" alt="">
+    <img src="{% static 'main/img/black.png' %}" alt="">
+    <img src="{% static 'main/img/black.png' %}" alt="">
+</div>
+
+
+
+
+
+
+{% endblock %}
